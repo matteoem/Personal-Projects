@@ -7,11 +7,12 @@ import gmplot
 import re
 import math
 
-APP_KEY = 'VUT9Jv4qHSUiT8yHbVB2YYPq9'
-APP_SECRET = 'Q7trUFUJFyys8mHsM3OTPsazTXU2mGUNPYnsqFSJVdhwLlBLJ4'
-ACC_TOKEN = '3329067400-jjRzSOAi5EHBRHlXzlVHAwspupR5ehXdTpG6jKq'
-ACC_TOKEN_SECRET = 'qhsoFBeVTUIx2Q9eXJ75Sp77XWhWAcEHvvggAdXqcJxa2'
-apikey = 'AIzaSyBceQIdyyKtoBJhUpbMeUGmUT15ARyqvy4'
+# INSERT YOUR KEYS HERE!
+APP_KEY = ''
+APP_SECRET = ''
+ACC_TOKEN = ''
+ACC_TOKEN_SECRET = ''
+apikey = ''
 
 
 # # # # TWITTER STREAMER # # # #
