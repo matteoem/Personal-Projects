@@ -21,7 +21,7 @@ I'm fully aware that this project is a very simple one, and no "rocket science i
 
 
 
-For any comments, questions, or code usage, please contact me to matteoemanuele0@gmail.com 
+For any comments, questions, or code usage, please contact me to matteoemanuele0@gmail.com   
 linkedin profile: [Matteo Emanuele](linkedin.com/in/matteo-emanuele-688b121a3)
 
 
