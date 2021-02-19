@@ -1,0 +1,498 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 37,
+      "max": [
+        0.10779198259115219,
+        0.053554952144622803,
+        0.05355493351817131
+      ],
+      "min": [
+        0.097047336399555206,
+        -0.053554993122816086,
+        -0.053554963320493698
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 444,
+      "componentType": 5126,
+      "count": 37,
+      "max": [
+        1,
+        0.31868895888328552,
+        0.31869003176689148
+      ],
+      "min": [
+        0.946929931640625,
+        -0.3186887800693512,
+        -0.31868958473205566
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 37,
+      "max": [
+        0.98102027177810669,
+        0.98102015256881714
+      ],
+      "min": [
+        0.018979907035827637,
+        0.018979907035827637
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 296,
+      "componentType": 5126,
+      "count": 37,
+      "max": [
+        0.98102027177810669,
+        0.98102015256881714
+      ],
+      "min": [
+        0.018979907035827637,
+        0.018979907035827637
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 180,
+      "max": [
+        36
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 888,
+      "componentType": 5126,
+      "count": 14588,
+      "max": [
+        0.14388778805732727,
+        0.18688453733921051,
+        0.15245543420314789
+      ],
+      "min": [
+        -0.15395236015319824,
+        -0.18611045181751251,
+        -0.15245543420314789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 175944,
+      "componentType": 5126,
+      "count": 14588,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 592,
+      "componentType": 5126,
+      "count": 14588,
+      "max": [
+        0.99515050649642944,
+        0.99484074115753174
+      ],
+      "min": [
+        0.0044043269008398056,
+        -0.24560153484344482
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 117296,
+      "componentType": 5126,
+      "count": 14588,
+      "max": [
+        0.99515050649642944,
+        0.99484074115753174
+      ],
+      "min": [
+        0.0044043269008398056,
+        -0.24560153484344482
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 720,
+      "componentType": 5125,
+      "count": 38694,
+      "max": [
+        14587
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Sandy_boi (https://sketchfab.com/Sandy_boi)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/wheatley-21e0d5b2e08444c6b99b590c4825ed40",
+      "title": "Wheatley"
+    },
+    "generator": "Sketchfab-8.59.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 155496,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 234000,
+      "byteOffset": 155496,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 351000,
+      "byteOffset": 389496,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 740496,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/modelsnpcspersonality_spherepersonality_sphere_light_damaged_baseColor.png"
+    },
+    {
+      "uri": "textures/modelsnpcspersonality_spherepersonality_sphere_light_damaged_emissive.png"
+    },
+    {
+      "uri": "textures/modelsnpcspersonality_spherepersonality_sphere_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "name": "modelsnpcspersonality_spherepersonality_sphere_light_damaged",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.86756859760000005
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "modelsnpcspersonality_spherepersonality_sphere",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.7421875
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        -0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "RootNode (model correction matrix)_1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "49953a7f953f457e868f91cb27d21cff.fbx_2"
+    },
+    {
+      "children": [
+        8,
+        11
+      ],
+      "name": "RootNode_3"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.9470719053060748e-05,
+        1.3234889800848443e-21,
+        100,
+        0,
+        -1.6292067812173627e-05,
+        100,
+        3.1721825687058836e-12,
+        0,
+        -100,
+        -1.6292067812173627e-05,
+        1.9470719053060748e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "mesh2_4"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "mesh2_models/npcs/personality_sphere/personality_sphere_light_damaged_0_5"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        1.9470719053060748e-05,
+        1.3234889800848443e-21,
+        100,
+        0,
+        -1.6292067812173627e-05,
+        100,
+        3.1721825687058836e-12,
+        0,
+        -100,
+        -1.6292067812173627e-05,
+        1.9470719053060748e-05,
+        0,
+        2.0023440683303306e-08,
+        -2.041342668235302e-07,
+        8.752524851667878e-16,
+        1
+      ],
+      "name": "mesh0_6"
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "mesh0_models/npcs/personality_sphere/personality_sphere_0_7"
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

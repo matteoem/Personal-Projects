@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="">
+
+		<meta charset=UTF-8 />
+		<link rel="stylesheet" type="text/css" href="cssloading.css" />
+		<title>Demo 03</title>
+		<script type="text/javascript" src="./jsfiles/three.js" ></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="physi.js"></script>
+		<script src="./jsfiles/GLTFLoader.js"></script>
+		<script type="text/javascript" src="./jsfiles/PointerLockControls.js"></script> 
+		<script type="text/javascript" src="./jsfiles/FirstPersonCharacter.js"></script>  
+		<script type="text/javascript" src="./jsfiles/Portals.js"></script> 
+		<script src="./jsfiles/utilitiesProject.js"></script>
+		<script type="text/javascript" src="./jsfiles/Portal2MainGameFile.js" ></script>
+		<script type="text/javascript" src="./jsfiles/CharacterBody.js" ></script>
+
+		 <video id="video" autoplay loop style= "display:none">
+			<source src="./media/MyVideo.mp4" type="video/mp4" preload="auto" autoload="true">
+		</video> 
+
+		<audio id="shootingSound">
+			<source src="Portal gun Shooting Sound Effect.mp3" type="audio/mpeg" preload="auto" autobuffer controls>
+			</audio>
+
+		
+
+	</head>
+
+
+	<script id="vertex-shader" type="x-shader/x-vertex">
+		varying vec4 screenPos;
+		
+		void main()
+		{
+			vec4 p = vec4(position.xyz,1);
+			gl_Position = projectionMatrix * modelViewMatrix * p;
+
+			screenPos = gl_Position * 0.5;
+			screenPos.xy = vec2(screenPos.x, screenPos.y) + screenPos.w;
+			screenPos.zw = gl_Position.zw;
+		}
+	</script>
+		
+	<script id="fragment-shader" type="x-shader/x-fragment">
+		varying vec4 screenPos;
+		
+		uniform sampler2D Utexture;
+		
+		void main()
+		{
+			vec2 fUv = screenPos.xy / screenPos.w;
+			gl_FragColor = texture2D(Utexture, fUv);
+		}
+	</script>
+
+	<body>
+		
+	<div id="MenuMacro">
+		<h2> <button id="button" onclick="init()"></button>
+
+			 <style type="text/css" id="Menu"> 
+			html{
+				background: url('./media/BackgroundMenuFinal.gif') no-repeat
+				center center fixed;
+				-webkit-background-size: 90% 90%;
+				-moz-background-size: 90% 90%;
+				-o-background-size: 90% 90%;
+				background-size: 90% 90%;
+				background-color: black;
+				overflow-x: hidden;
+				overflow-y: hidden;
+				}
+			</style> 
+			
+			</div>
+		</h2>
+	</div>
+	<p id  = "debug">debug</p>
+	
+	<div id="schermata_caricamento" style="display:none"></div>
+	<div id="target" style="display:none"></div>
+
+	</body>
+</html>
+

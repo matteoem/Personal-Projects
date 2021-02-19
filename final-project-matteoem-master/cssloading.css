@@ -1,0 +1,63 @@
+#schermata_caricamento {
+ 
+  width: 100%;
+ 
+  height:100%;
+ 
+  position:fixed;
+ 
+  top:0;
+ 
+  left:0;
+ 
+  background-color:#34B4F8;
+ 
+  background-image:url(https://media.giphy.com/media/l0HlKghz8IvrQ8TYY/giphy.gif);
+ 
+  background-repeat:no-repeat;
+   
+  background-position:center;
+}
+
+#target {
+ 
+    width: 70%;
+   
+    height:90%;
+   
+    position:fixed;
+   
+    top:70px;
+   
+    left:130px;
+   
+    background-color: none;
+   
+    background-image:url(./media/quest.png);
+   
+    background-repeat:no-repeat;
+     
+    background-position:top;
+   background-size: auto;
+  }
+
+h2 {
+    position: absolute;
+    left: 7.5%;
+    top: 40%;
+  }
+
+  button {
+    background-image: url(./media/playsingleplayer.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    height: 40px;
+    width: 350px;
+    border-style: solid;
+    border-color: navy;
+  }
+  
+  button span {
+    display: none;
+  }
+
