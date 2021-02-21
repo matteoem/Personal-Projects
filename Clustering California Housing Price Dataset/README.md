@@ -21,8 +21,8 @@ are reported also the feature distributions for each cluster
 
 From the distribution of each feature in each cluster we noticed how the map of tax revenue seems to be very similar in distribution to the clusterization that we obtained, which is
 promising. Although the poorest cluster and the wealthiest cluster seems to
-be overllapped on the coast, this could be interpreted as high social inequality(
-” Economic inequality in Los Angeles is driven by an expanding population
+be overllapped on the coast, this could be interpreted as high social inequality
+(”Economic inequality in Los Angeles is driven by an expanding population
 at the bottom of the income and wealth distributions together with a growing
-share held by those at the top”.  [Source](https://knowledge.luskin.ucla.edu/wp-content/uploads/2018/01/Haynes-Report_WideningDivide_Ong_UCLA_1.3.2017.pdf)
+share held by those at the top”).  [Source](https://knowledge.luskin.ucla.edu/wp-content/uploads/2018/01/Haynes-Report_WideningDivide_Ong_UCLA_1.3.2017.pdf)
 
