@@ -1,5 +1,6 @@
 import copy
 from doctest import master
+from email.mime import image
 from hashlib import new
 from tracemalloc import start
 

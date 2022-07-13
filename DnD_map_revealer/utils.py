@@ -12,7 +12,7 @@ from asciimatics.screen import Screen
 import colorama
 from termcolor import cprint 
 from pyfiglet import figlet_format
-
+import os
 
 def demo(screen):
     effects = [
@@ -103,7 +103,8 @@ def intro():
         print()
         print(colorama.Fore.YELLOW +"Waiting for input...")
         input_ = input()
-    path_ = "C:\\Users\\MATTEO\\Desktop\\python_scripts\\DnD_map_revealer\\dnd_maps\\"+ input_
+    path_ = os.getcwd()+"\\dnd_maps\\"+ input_
+    print(path_)
     image_path = str(path_)+'.PNG'
     return image_path
 
