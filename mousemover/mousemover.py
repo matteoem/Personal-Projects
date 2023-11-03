@@ -6,7 +6,6 @@ import tkinter as tk
 import keyboard
 from mouse._mouse_event import ButtonEvent
 import cv2
-import time
 from ultralytics import YOLO
 import supervision as sv
 
